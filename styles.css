@@ -136,7 +136,7 @@ button:hover {
 }
 
 .hero-btn {
-    border: 1px solid;
+    border: 2px solid;
     padding: 10px 20px;
     border-color: white;
     background-color: transparent;
@@ -189,7 +189,7 @@ button:hover {
     height: auto;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
     .container {
         flex-direction: column;
         align-items: flex-start;
@@ -241,7 +241,78 @@ button:hover {
         justify-content: center;
         padding-bottom: 90px ;
     }
-    
+    .middle {
+        padding-top: 15rem;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .we {
+        font-family: "DM Serif Display", serif;
+        font-weight: 400;
+        font-size: 2px;
+    }
+    .circle {
+        display: flex;
+        justify-content: center;
+    }
+    .flex {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        margin: 5rem 0;
+    }
+    .flex {
+        margin: 0 1.2rem;
+    }
+    .find-mid {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .find-h {
+        font-size: 2rem;
+        margin: 0 0.5rem 2rem 0;
+    }
+    .top-foot {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .log {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .gap {
+        margin-top: 2rem;
+    }
+    .all-links {
+        flex-direction: column;
+        text-align: center;
+    }
+    .foot-link {
+        
+        text-align: center;
+    }
+    .foot-hr {
+        margin: 0 auto;
+        max-width: 300px;
+    }
+    .dd {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        max-width: 200px;
+        margin: 0 auto;
+        
+    }
 }
 
 
@@ -269,13 +340,21 @@ button:hover {
     padding-top: 10rem;
     max-width: 70rem;
     margin: 0 auto;
+    color: #2b272f;
+    font-size: 2rem;
+
+}
+
+.we {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-size: 3rem;
 }
 
 hr {
     width: 13rem;
     height: 1px;
     border: 0;
-    
     border-top: 1px solid #c396c6;
 }
 
@@ -288,5 +367,250 @@ hr {
 
     .diff {
         text-align: center;
+        padding-top: 0;
+    }
+    .flex {
+        padding: 0 2rem;
+    }
+   
+}
+
+.line {
+    margin-bottom: 2rem;
+}
+
+.icon {
+    width: 5.7rem;
+    height: 5.7rem;
+    background-color: #97a9c6;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-h {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 1rem;
+}
+
+.flex-p {
+    font-family: "karla", serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #837d86;
+}
+
+.box {
+    max-width: 25rem;
+}
+
+.flex{
+    display: flex;
+    margin: 2rem 0;
+    justify-content: space-between;
+}
+
+.find {
+    max-width: 70rem;
+    margin: 8rem auto;
+    display: flex;
+    background-color: var(--main-color);
+}
+
+.find-mid{
+    width: 60rem;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 3.6rem 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.find-h {
+    font-family: "DM Serif Display", serif;
+    color: white;
+    font-weight: 400;
+    font-size: 4.3rem;
+    max-width: 600px;
+    line-height: 4rem;
+}
+
+.mar {
+    margin: 0 2rem;
+}
+
+footer {
+    background-color: #fafafa;
+    margin: 0;
+}
+
+.foot-mid {
+    z-index: 10;
+    max-width: 70rem;
+    margin: 0 auto;
+}
+
+
+
+footer {
+    padding: 6.4rem 0 0 0;
+}
+.top-foot {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.left {
+    padding-left: 1rem;
+    width: 2.8rem;
+    cursor: pointer;
+}
+
+.left:hover {
+    color: #2d2640;
+}
+
+.foot-hr {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.all-links {
+    font-family: 'karla', sans-serif;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+}
+
+.foot-head {
+    font-family: 'karla', sans-serif;
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: #837d86;
+    margin-bottom: 1.5rem;
+}
+
+.foot-link {
+    font-family: 'karla', sans-serif;
+    font-weight: bold;
+    color: #2d2640;
+    cursor: pointer;
+    margin-bottom: 0.6rem;
+    font-size: 0.8rem;
+    letter-spacing: 1.36px;
+}
+
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
     }
 }
+
+.text {
+    animation: slideInFromLeft 1s ease-in-out;
+}
+
+
+
+
+
+.foot-link {
+    position: relative;
+    display: flex;
+    cursor: pointer;
+    padding-bottom: 2px; 
+    color: inherit; 
+    text-decoration: none;
+    width: 8rem;
+}
+
+
+.foot-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px; 
+    background-color: currentColor; 
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.foot-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.how {
+    width: 110px;
+}
+
+.why {
+    width: 95px;
+}
+
+.view {
+    width: 90px;
+}
+
+.rev {
+    width: 66px;
+}
+
+.faq {
+    width: 40px;
+}
+
+.terms {
+    width: 107px;
+}
+
+.priv {
+    width: 120px;
+}
+
+.cook {
+    width: 66px;
+}
+
+.sales {
+    width: 50px;
+}
+
+.sup {
+    width: 66px;
+}
+
+.live {
+    width: 75px;
+}
+
+.car {
+    width: 66px;
+}
+
+.pre {
+    width: 50px;
+}
+
+.lic {
+    width: 74px;
+}
+
