@@ -362,10 +362,8 @@ button:hover {
     }
 
 }
-
-@media (max-width: 760px) {
     .find-h {
-        font-size: 1rem;
+        font-size: 4rem;
         font-family: "DM Serif Display", serif;
         font-weight: 400;
         margin-bottom: 2rem;
@@ -373,14 +371,12 @@ button:hover {
         color: white;
         max-width: 600px;
     }
-}
 
-.find-h {
-    font-size: 4rem;
-    font-family: "DM Serif Display", serif;
-    font-weight: 400;
-    color: white;
-    max-width: 600px;
+
+@media (max-width: 760px) {
+    .find-h {
+        font-size: 2rem;
+    }
 }
 
 .desktop{
