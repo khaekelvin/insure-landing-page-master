@@ -21,6 +21,10 @@ nav {
     letter-spacing: 1.5px;
 }
 
+li:hover {
+    color: #2d2640;
+}
+
 nav{
     padding: 10px 30px;
     display: flex;
@@ -112,7 +116,24 @@ nav ul li a{
         color: var(--main-color);
         cursor: pointer;
     }
+    h4 {
+        font-size: small;
+    }
 
+    .nav-text {
+        font-family: 'karla', sans-serif;
+        font-weight: 700;
+        font-size: 0.5rem;
+        color: white;
+        letter-spacing: 1.5px;
+    }
+    .nav-tex:hover {
+        font-family: 'karla', sans-serif;
+        font-weight: 700;
+        font-size: 0.5rem;
+        color: #837d86;
+        letter-spacing: 1.5px;
+    }
 }
 
 
@@ -168,7 +189,7 @@ button:hover {
     padding: 10px 20px;
     border-color: white;
     background-color: transparent;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     font-weight: 400;
     transition: background-color 200ms ease-in-out;
     color: white;
@@ -303,10 +324,6 @@ button:hover {
         display: flex;
         flex-direction: column;
     }
-    .find-h {
-        font-size: 2rem;
-        margin: 0 0.5rem 2rem 0;
-    }
     .top-foot {
         display: flex;
         flex-direction: column;
@@ -343,9 +360,28 @@ button:hover {
         margin-top: 2rem;
         margin-bottom: 0.3rem;
     }
+
 }
 
+@media (max-width: 760px) {
+    .find-h {
+        font-size: 1rem;
+        font-family: "DM Serif Display", serif;
+        font-weight: 400;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        color: white;
+        max-width: 600px;
+    }
+}
 
+.find-h {
+    font-size: 4rem;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    color: white;
+    max-width: 600px;
+}
 
 .desktop{
     transform: translateY(4.5rem);
@@ -464,14 +500,6 @@ hr {
     flex-wrap: wrap;
 }
 
-.find-h {
-    font-family: "DM Serif Display", serif;
-    color: white;
-    font-weight: 400;
-    font-size: 4.3rem;
-    max-width: 600px;
-    line-height: 4rem;
-}
 
 .mar {
     margin: 0 2rem;
