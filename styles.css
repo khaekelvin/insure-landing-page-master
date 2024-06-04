@@ -390,6 +390,9 @@ button:hover {
 }
 
 @media (max-width: 10245px){
+    .find-h{
+        padding-left: 1rem;
+    } 
     .hero-btn {
         margin-right: 2rem;
     }
