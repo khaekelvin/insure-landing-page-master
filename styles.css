@@ -370,6 +370,7 @@ button:hover {
         margin-top: 2rem;
         color: white;
         max-width: 600px;
+        line-height: 4rem;
     }
 
 
@@ -378,6 +379,7 @@ button:hover {
         font-size: 2rem;
         margin-left: 1rem;
         margin-right: 1rem;
+        line-height: 2.4rem;
     }
     .hero-btn {
         margin: 0 2rem;
@@ -507,7 +509,7 @@ hr {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    padding: 3.6rem 0;
+    padding: 2rem 0;
     display: flex;
     flex-wrap: wrap;
 }
