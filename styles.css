@@ -376,8 +376,24 @@ button:hover {
 @media (max-width: 760px) {
     .find-h {
         font-size: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .hero-btn {
+        margin: 0 2rem;
     }
 }
+
+@media (max-width: 10245px){
+    .find-h{
+        margin-left: 2rem;
+    }
+    .hero-btn {
+        margin-right: 2rem;
+    }
+}
+
+
 
 .desktop{
     transform: translateY(4.5rem);
