@@ -13,6 +13,14 @@ nav {
     margin: 0 auto;
 }
 
+.nav-text {
+    font-family: 'karla', sans-serif;
+    font-weight: 700;
+    font-size: 0.5rem;
+    color: #837d86;
+    letter-spacing: 1.5px;
+}
+
 nav{
     padding: 10px 30px;
     display: flex;
@@ -22,7 +30,6 @@ nav{
     position: relative;
     height: 70px;
     color: black;
-    
 }
 
 nav ul{
@@ -55,7 +62,7 @@ nav ul li a{
     font-size: 30px;
 }
 
-@media (max-width:600px) {
+@media (max-width:768px) {
     nav ul{
         position: absolute;
         top: 70px;
@@ -88,15 +95,36 @@ nav ul li a{
         transition: all 0.5s;
     }
 
+    .btn-small {
+        border: 2px solid;
+        padding: 10px 20px;
+        border-color: white;
+        background-color: transparent;
+        font-size: 0.9rem;
+        font-weight: 400;
+        transition: background-color 200ms ease-in-out;
+        color: white;
+        z-index: 10000;
+        margin-bottom: 1rem;
+    }
+    .btn:hover {
+        background-color: white;
+        color: var(--main-color);
+        cursor: pointer;
+    }
+
 }
+
+
 
 button {
     border: 1px solid;
     padding: 10px 20px;
     border-color: #2d2640;
     background-color: white;
-    font-size: 0.9rem;
-    font-weight: 400;
+    font-size: 0.7rem;
+    font-weight: bold;
+    letter-spacing: 1.4px;
     transition: background-color 200ms ease-in-out;
 }
 
@@ -199,7 +227,7 @@ button:hover {
         width: 100%;
     }
     .hero-heading {
-        font-size: 3.6rem;
+        font-size: 3rem;
         padding: 0 15px;
         font-family: "DM Serif Display", serif;
         font-weight: 400;
@@ -313,6 +341,7 @@ button:hover {
     }
     .foot-head{
         margin-top: 2rem;
+        margin-bottom: 0.3rem;
     }
 }
 
